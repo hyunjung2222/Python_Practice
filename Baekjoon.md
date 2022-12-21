@@ -16,7 +16,7 @@ AAABBBCCC
 su=int(input())      
 for i in range(su):    
     a, b=  input().split()
-    for j in b:                           
+    **for j in b:   숫자 반복이 아니라 문자열에서 요소를 꺼낼수도 있음!!**                          
         print(j*int(a) , end="")    
     print()
 ```
