@@ -1,4 +1,5 @@
 from random import *
+
 person = 0
 for i in range(1, 51):
     time=randrange(5,51)
